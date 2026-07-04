@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Define the base URL pointing to the Express server (port 5000)
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://ai-persona-e428.onrender.com';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
